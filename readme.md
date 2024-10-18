@@ -1,6 +1,6 @@
 ## AD 315 Sets and Statements Assignments
 
-This repo contains two assignments, power sets and mathematical statements
+This repo contains command-line applications for two assignments, power sets and mathematical statements. 
 
 ## Power Sets
 
@@ -24,8 +24,13 @@ python power_set_tests.py
 ### Usage
 
 ```
-python statements.py
+python truth.py
 
 ```
+Choose 1 to display the full truth table or 0 to choose the values. Then enter the values for A and B. 
 
 ### Testing
+
+```
+python truth_tests.py
+```
