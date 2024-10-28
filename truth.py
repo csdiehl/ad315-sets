@@ -14,7 +14,7 @@ def main():
     print('You can either show a full truth table or choose the truth value of each statement')
     print('Enter 1 to see the full truth table, 0 to enter your own values')
 
-    fullTruthTable = bool(input())
+    fullTruthTable = int(input()) == 1
 
     if (fullTruthTable):
         print('full truth table')
